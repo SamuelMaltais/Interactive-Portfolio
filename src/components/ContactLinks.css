@@ -1,0 +1,9 @@
+.contact-link{
+    margin-right: 20px;
+}
+@media (max-width:500px) {
+    .contact-links{
+        display: flex;
+        margin-top: 30px;
+    }
+}

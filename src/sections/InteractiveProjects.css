@@ -1,0 +1,8 @@
+.special-projects-container{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.spceial-project-description{
+    width: 500px;
+}
