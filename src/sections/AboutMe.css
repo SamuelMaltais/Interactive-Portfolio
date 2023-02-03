@@ -1,0 +1,9 @@
+.about-me-story{
+    text-align: center;
+    padding: 10px 50px;
+}
+.about-me-story img{
+    border-radius: 10px;
+    border-style: solid;
+    max-width: 90%;
+}

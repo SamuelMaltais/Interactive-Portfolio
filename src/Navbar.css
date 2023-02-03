@@ -25,9 +25,20 @@
     padding: 10px 20px;
     margin: 0px 10px;
     border-radius: 10px;
+    text-decoration: none;
+    color: black;
 }
 .navbar-links a:hover{
     background-color: rgb(255, 213, 184);
+    cursor: pointer;
+}
+.menu-item{
+    font-size: 12;
+    color: white;
+    text-decoration: none;
+}
+.menu-item:hover{
+    cursor: pointer;
 }
 
 @media (max-width:500px) {

@@ -11,5 +11,11 @@
     max-width: 500px;
 }
 .chart{
-    max-width: 80%;
+    max-width: 1200px;
+    max-height: 500px;
+}
+@media (max-width: 500px) {
+    .skills-container{
+        flex-direction: column;
+    }
 }
