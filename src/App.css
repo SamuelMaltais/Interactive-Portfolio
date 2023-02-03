@@ -1,6 +1,7 @@
 .App {
   background-color: white;
   text-align: center;
+  z-index: 10;
 }
 .App-header {
   background-color: #a3abbb;
@@ -12,7 +13,11 @@
   font-size: 1.5rem;
   color: white;
 }
+.indexwtv > * {
+  z-index: 10;
+}
 .nice-button{
+  z-index: 10;
   padding: 10px 30px;
   background: #3f4257;
   border-radius: 30px;

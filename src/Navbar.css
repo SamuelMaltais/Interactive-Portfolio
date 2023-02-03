@@ -29,9 +29,6 @@
 .navbar-links a:hover{
     background-color: rgb(255, 213, 184);
 }
-.contact-link{
-    margin-right: 20px;
-}
 
 @media (max-width:500px) {
     .navbar-links{
