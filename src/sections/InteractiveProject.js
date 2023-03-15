@@ -1,7 +1,10 @@
 // import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 // import ArrowForwardIos from '@mui/icons-material/ArrowForwardIos';
-import { Chessboard } from "react-chessboard";
+import React, { useState } from 'react';
+
+
 import "./InteractiveProjects.css";
+import PlayRandomMoveEngine from '../components/mychessbot';
 
 function InteractiveProject() {
   let size;
@@ -11,7 +14,6 @@ function InteractiveProject() {
   } else {
     size = 500;
   }
-
   return (
     <div className="special-projects-container">
       {/* <ArrowBackIosIcon />  */}
@@ -22,7 +24,7 @@ function InteractiveProject() {
           alignItems: "center",
         }}
       >
-        <Chessboard areArrowsAllowed={true} boardWidth={size} />
+        <PlayRandomMoveEngine />
         <div className="special-project-description">
           <h2>Play against my chess ai !</h2>
           <p>This project is in the works right now</p>

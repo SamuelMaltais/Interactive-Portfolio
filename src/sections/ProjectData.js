@@ -4,8 +4,20 @@ import Mask from "./project-images/mask.PNG"
 import Magnetometer from "./project-images/magnetometer.jpg"
 import Alpha from "./project-images/Alpha.PNG"
 import TvControl from "./project-images/TvControl.PNG"
+import FaitFrette from "./project-images/FaitFrette.PNG"
 
 let data = [
+    {
+        image: FaitFrette,
+        title: "Travel recommendation based on weather",
+        skills: ['React js', 'Weather API', 'DNS configuration', 'SVG and material UI'],
+        description: "Built this website during a hackathon to recommend cities to travel to based on desired weather. This website is usefull for winter sports lovers and I use it myself to choose mountains I should go to",
+        hasCode: true,
+        hasLiveVersion: true,
+        liveVersionLink: 'http://faitfrette.tech/',
+        codeLink: "https://github.com/SamuelMaltais/fait-frette.tech",
+        parOf:  "hackathon"
+    },
     {
         image: TvControl,
         title: "Webapp to control lobby tv",
