@@ -5,7 +5,7 @@ import Magnetometer from "./project-images/magnetometer.jpg"
 import Alpha from "./project-images/Alpha.PNG"
 import TvControl from "./project-images/TvControl.PNG"
 import FaitFrette from "./project-images/FaitFrette.PNG"
-
+import JavaFx from "./project-images/javaFx.PNG"
 let data = [
     {
         image: FaitFrette,
@@ -28,6 +28,17 @@ let data = [
         liveVersionLink: 'https://mcgilldisplay.netlify.app/',
         codeLink: "https://github.com/SamuelMaltais/TvDisplayForSchool",
         parOf:  "mcgill"
+    },
+    {
+        image: JavaFx,
+        title: "JavaFx registering system",
+        skills: ['Java', 'Backend TCP/IP', 'Multithreading', 'FXML'],
+        description: "During this project, we built a javaFx frontend and a Java socket server in order to display classes and allow registration to those classes. A regex validation system as well as multithreading was used to ensure smooth user experience.",
+        hasCode: true,
+        hasLiveVersion: false,
+        liveVersionLink: '',
+        codeLink: "https://github.com/SamuelMaltais/InscriptionServeur",
+        parOf:  "hackathon"
     },
     {
         image: Alpha,
