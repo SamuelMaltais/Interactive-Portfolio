@@ -41,7 +41,7 @@ var ParticlesBg = forwardRef((props) => {
           },
           modes: {
             push: {
-              quantity: 4,
+              quantity: 1,
             },
             repulse: {
               distance: 50,

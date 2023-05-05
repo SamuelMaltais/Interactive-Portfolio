@@ -52,6 +52,7 @@ const Projects = forwardRef((props, ref) => {
   }
 
   return (
+    <>
     <div className="projects-container" ref={ref}>
       <h1>Checkout my work 🔥</h1>
       {projectsStart}
@@ -69,6 +70,7 @@ const Projects = forwardRef((props, ref) => {
         See more projects <ArrowDropDown />
       </button>
     </div>
+    </>
   );
 });
 export default Projects;

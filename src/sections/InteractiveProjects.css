@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
 }
-.spceial-project-description{
-    width: 500px;
+.special-project-description{
+    color: black;
+
+}
+.special-project-description p{
+    text-align: left;
 }
