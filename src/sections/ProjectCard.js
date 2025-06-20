@@ -5,7 +5,7 @@ import { useState } from "react";
 function ProjectCard(props) {
   let codeButton;
   let liveCodeButton;
-  let clicked = true;
+  let clicked = false;
   const query = window.matchMedia("(max-width: 500px)");
   if (query.matches === true) {
     clicked = false;
@@ -29,24 +29,10 @@ function ProjectCard(props) {
       </a>
     );
   }
-  var offset = {};
-  const leftOffset = {
-    marginLeft: "100px",
-    marginRight: "0px",
-  };
-  const rightOffset = {
-    marginLeft: "0px",
-    marginRight: "100px",
-  };
-  if (props.offset == true) {
-    offset = leftOffset;
-  } else {
-    offset = rightOffset;
-  }
+
   const mediaQuery = window.matchMedia("(max-width: 500px)");
   // Check if the media query is true
   if (mediaQuery.matches) {
-    offset = {};
   }
 
   var MoreButton = (
@@ -55,15 +41,14 @@ function ProjectCard(props) {
     />
   );
 
-  const image = <img src={props.image} alt="" />;
+  const image = <img src={props.image} alt="" className="card-img" />;
   return (
     <div
       className="project-card-container"
-      style={offset}
-      onClick={() => setButtonClicked(!buttonClicked)}
+      // onClick={() => setButtonClicked(!buttonClicked)}
     >
       {props.offset ? image : ""}
-      {props.offset ? MoreButton : ""}
+      {/* {props.offset ? MoreButton : ""} */}
       <div
         className={
           buttonClicked ? "project-description" : "project-description-clicked"
@@ -84,11 +69,11 @@ function ProjectCard(props) {
         <h3>Role description</h3>
         <p>{props.description}</p>
         <div className="button-seperator">
-          {codeButton}
           {liveCodeButton}
+          {codeButton}
         </div>
       </div>
-      {props.offset ? "" : MoreButton}
+      {/* {props.offset ? "" : MoreButton} */}
       {props.offset ? "" : image}
     </div>
   );

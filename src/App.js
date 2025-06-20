@@ -18,14 +18,15 @@ function App() {
       <div className="App" ref={home}>
         <header className="App-header">
           <Particles />
+          <InteractiveProject />
           <Navbar
             home={home}
             projects={projects}
             skills={skills}
             aboutMe={aboutMe}
           />
-          <InteractiveProject />
         </header>
+
         <div className="indexwtv">
           <Projects ref={projects} />
           <Skills ref={skills} />

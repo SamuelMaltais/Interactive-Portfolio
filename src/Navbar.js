@@ -15,7 +15,7 @@ function Navbar(props) {
   };
   return (
     <>
-      <Menu className="#hamburger-menu" right width={300} noOverlay>
+      {/* <Menu className="#hamburger-menu" right width={300} noOverlay>
         <a
           className="menu-item"
           onClick={() => {
@@ -49,7 +49,7 @@ function Navbar(props) {
           About me
         </a>
         <ContactLinks />
-      </Menu>
+      </Menu> */}
       <div className="navbar-container">
         <label className="name-logo">
           <img src={logoImage} height={50} width={50} alt=""></img>

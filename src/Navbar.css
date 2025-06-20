@@ -1,18 +1,20 @@
-.navbar-container{
-    margin-top: 70px;
-    margin-bottom: 30px;
-    background-color: white;
-    box-shadow: 1px;
-    color: black;
-    height: 65px;
-    width: 70%;
-    display: flex;
-    align-items: center;
-    min-width: 500px;
-    padding: 7px 10px;
-    justify-content: space-between;
-    box-shadow: 8px 8px 3px grey;
+.navbar-container {
+  position: fixed;
+  top: 5px; 
+  z-index: 1000; 
+  margin-top: 0;
+  background-color: white;
+  color: black;
+  height: 65px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  min-width: 500px;
+  padding: 7px 10px;
+  justify-content: space-between;
+  box-shadow: 8px 8px 3px grey;
 }
+
 .name-logo{
     display: flex;
     align-items: center;

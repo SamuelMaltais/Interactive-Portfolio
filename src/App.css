@@ -12,6 +12,7 @@
   min-height: 70%;
   font-size: 1.5rem;
   color: white;
+  padding-top: 120px;
 }
 .indexwtv > * {
   z-index: 10;
